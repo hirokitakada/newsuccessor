@@ -1,4 +1,4 @@
-{% extends 'base/base.html' %}
+{% extends 'registration/base.html' %}
 
 {% load static %}
 
@@ -11,8 +11,11 @@
 {% include 'base/_navbar.html' %}
 <div class="top-wrapper">
     <div class="header-img">
-        <img class="main-img" src="{% static 'images/bg.jpg' %}" alt="" />
+        <img class="main-img" src="{% static 'images/IMG_8991.jpg' %}" alt="" />
     </div>
+</div>
+<div class="favo-box">
+    <div class="favo favo-click">☆</div>
 </div>
 
 <div class="main-wrapper">
@@ -65,8 +68,8 @@
 
     <div class="carrier-data profile-box">
         <p class="heading-letter">興味あること</p>
+        <div class="tag">営業</div>
     </div>
-
 
 
 </div>
@@ -74,4 +77,20 @@
 
 
 {% include 'base/_footer.html' %}
+
+{% block js %}
+
+{% endblock %}
+<script>
+    $('.favo-click').click(function () {
+        $('.favo').addClass('');
+
+        if ($(this).hasClass('favo-on')) {
+            $(this).removeClass('favo-on');
+        }
+        else {
+            $(this).addClass('favo-on')
+        }
+    })
+</script>
 {% endblock %}
