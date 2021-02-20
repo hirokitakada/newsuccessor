@@ -1,0 +1,51 @@
+/*
+top.html
+ */
+
+.newRoomPosition{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 3% 25% 0% 25% ;
+}
+
+.newRoom{
+    border-radius: 25px;
+    background-color: white;
+    padding: 0.5%;
+    margin-bottom: 2.5%;
+}
+.main-img {
+    width: 10%;
+    height: 10%;
+    border-radius: 100px;
+    margin-right: 10%;
+}
+.newRoomProfile{
+    display: flex;
+    margin: 0 5% 0 5%;
+    align-items: center;
+}
+
+.profileName{
+    font-weight: bold;
+}
+.make-room-btn {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #0070C0;
+    text-decoration: none;
+    color: #0070C0;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 3px 0;
+    width: 30%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.make-room-btn:hover {
+    background-color: #0070C0;
+    color: white;
+    transition-duration: 0.5s
+}

@@ -1,0 +1,63 @@
+body {
+    padding-top: 100px;
+    background-color: #EEF1F2;
+    text-align: center;
+}
+p {
+    margin: 0;
+}
+
+.all-content {
+    background-color: #EEF1F2;
+    padding-bottom: 100px;
+}
+.form-box {
+    margin: 0 auto;
+    width: 40%;
+    padding-bottom: 30px;
+}
+.form-ttl {
+    padding: 20px 0 10px 0;
+    border-bottom: solid 1px #0070C0;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+.sa {
+    padding: 5px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.registration-form1 {
+    height: 30px;
+    width: 80%;
+    margin: 15px;
+}
+.registration-form2 {
+height: 30px;
+width: 80%;
+margin-bottom: 30px;
+}
+.login-btn {
+     margin: 0 auto;
+    display: block;
+    border: 1px solid #0070C0;
+    text-decoration: none;
+    color: #0070C0;
+    font-size: 18px;
+    padding: 3px 0;
+    width: 20%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.login-btn:hover {
+    background-color: #0070C0;
+    color: white;
+    transition-duration: 0.5s
+}
+.forget-password {
+    font-size: 12px;
+    color: #0070C0;
+    border-bottom: 1px solid #0070C0;
+
+}
