@@ -1,6 +1,4 @@
-* {
-    text-align: center;
-}
+
 .main-wrapper {
     padding-top: 50px;
 }
@@ -46,30 +44,14 @@
     margin-left: 10px;
 }
 
-.room {
-    margin-top: 20px;
-font-family: 'Roboto Slab', serif;
-}
-
-
-.room-btn {
-    display: block;
-    color: #fff;
-    font-size: 20px;
-    margin: 0 auto;
-    width: 30%;
-    background-color: #0070C0;
-    padding: 10px 0px;
-    border-radius: 10px;
-}
-
 .introduce {
-     margin: 0 auto;
+  margin: 0 auto;
   width: 60%;
   background-color: #fff;
   margin-top: 20px;
   border-radius: 20px;
    text-align: left;
+   padding-bottom: 20px;
 }
 
 .heading-letter {
@@ -81,6 +63,8 @@ font-family: 'Roboto Slab', serif;
 }
 .introcude-textbox {
     padding: 0 20px;
+    text-align: left;
+    font-size: 14px;
 }
 .bottom-line {
    width: 10%;
@@ -95,7 +79,7 @@ font-family: 'Roboto Slab', serif;
     margin-top: 20px;
     border-radius: 20px;
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 
 p {
@@ -132,122 +116,4 @@ div {
     padding-top: 20px;
     border-bottom: 1px solid #0070C0;
     margin: 0 auto;
-}
-
-.create-room-items {
-    border: 1px solid;
-    color: gray;
-}
-
-.column {
-    width: 80%;
-    margin: 0 auto;
-
-    border-radius: 10px;
-    padding: 5px 0;
-    line-height: 0;
-}
-
-.raised {
-    border-radius: 10px;
-}
-.review {
-     margin: 0 auto;
-    width: 60%;
-    background-color: #fff;
-    height: 100%;
-    margin-top: 10px;
-    border-radius: 20px;
-    text-align: center;
-    padding-bottom: 5px;
-    color: gray;
-}
-.review-head-comment {
-    text-align: left;
-    padding: 10px 0 20px 20px;
-}
-
-.no-life {
-    padding-bottom: 10px;
-}
-
-.more-see {
-    display: block;
-    font-size: 15px;
-    margin: 0 auto;
-    margin-top: 10px;
-    width: 15%;
-    background-color: #0070C0;
-    padding: 3px 0px;
-    border-radius: 10px;
-    margin-bottom: 50px;
-}
-
-.review-head-message {
-    font-size: 25px;
-    padding-bottom: 10px;
-}
-
-.review-head-letter {
-    padding-top: 10px;
-}
-
-.view-profile {
-    font-size: 30px;
-    padding: 30px;
-    font-family: serif;
-    text-align: center;
-}
-
-.room-box {
-    width: 80%;
-    margin: 0 auto;
-    border: 1px solid gray;
-    border-radius: 10px;
-    color:  gray;
-    display: flex;
-    margin-top: 20px;
-}
-
-.left-box {
-    width: 30%;
-}
-.right-box {
-    width: 70%;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.test-img {
-     width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    margin-top: 15px;
-}
-
-.mini-view {
-    float: right;
-    margin-right: 30px;
-    color:  #0070C0;
-}
-
-.right-box p:first-child {
-    margin-top: 20px;
-    color: #000;
-    margin-bottom: 5px;
-    font-size: 18px;
-}
-
-.room-box {
-    position: relative;
-    z-index: 1; /* 必要であればリンク要素の重なりのベース順序指定 */
-}
-.room-box a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-indent:-999px;
-    z-index: 2; /* 必要であればリンク要素の重なりのベース順序指定 */
 }
